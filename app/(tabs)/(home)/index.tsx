@@ -7,7 +7,7 @@ export default function HomeScreen() {
       <Text>Home</Text>
       <Link
         href={{
-          pathname: '/details/[id]',
+          pathname: '/(tabs)/(home)/details/[id]',
           params: { id: 'bacon' },
         }}>
         View user details
@@ -20,7 +20,5 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
   },
 });

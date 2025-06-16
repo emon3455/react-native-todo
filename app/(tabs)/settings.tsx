@@ -6,6 +6,7 @@ export default function SettingsScreen() {
     <SafeAreaView style={styles.container}>
       <Text>Settings</Text>
       <Image source={require('../../assets/images/adaptive-icon.png')} />
+      <Image source={{ uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-UISlC-svKGxLkicDl4OczwkyidR3_wwv-Q&s' }} style={{ width: "100%", height: 500 }} />
     </SafeAreaView>
   );
 }
@@ -13,7 +14,5 @@ export default function SettingsScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
   },
 });
